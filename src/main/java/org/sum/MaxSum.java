@@ -18,7 +18,7 @@ public class MaxSum {
 
 
     static Long getMaxSum(int[] arr, int k) {
-        // Edge Case: التأكد من أن طول المصفوفة كافٍ
+
         if (arr == null || arr.length < k || k <= 0) {
             return null;
         }
