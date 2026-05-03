@@ -7,8 +7,9 @@ import java.util.HashMap;
 public class SubarraySum {
 
     void main() {
-        int[] nums = {-1,-1,1} ;
-        int k = 0;
+//        int[] nums = {-1,-1,1} ;
+        int[] nums = {1,-1,2,3,-2} ;
+        int k = 1;
         System.out.println(subarraySum(nums,k));
     }
 
